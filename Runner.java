@@ -49,7 +49,7 @@ public class Runner {
 				}
 			}
 			else {
-				throw new InputMismatchException();
+				System.out.println("Wrong coordinates!");
 			}
 			
 			System.out.println("\nThe Matrix is:");
